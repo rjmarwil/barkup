@@ -4,7 +4,7 @@ require 'dogs'
 describe Dogs do
   let(:dogs) { Dogs.new }
 
-  describe "#small_dog" do
+  describe "#small_dogs" do
     it "returns all of the small dogs" do
       small_dogs = dogs.small_dogs
       expect(small_dogs.length).to eq(2)
